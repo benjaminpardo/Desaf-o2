@@ -1,0 +1,147 @@
+.navbar {
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+a{
+    color: white;
+}
+
+
+/* Portada completa */
+.jumbotron{
+    height: 92vh;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 5%;
+    margin-bottom: 0px;
+    background-image: url("../Img/fondo.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.display-4{
+    padding-top: 20vh;
+    font-weight: 700;
+}
+
+.lead{
+    /* width: 40%; */
+}
+
+.cta{
+    /* width: 40%; */
+}
+
+
+
+
+
+/* Ttulos y textos */
+.titulo{
+    padding-top: 5rem;
+    font-weight: 700;
+    text-align: center;
+    color:#343a40;
+}
+
+.texto{
+    padding-top: 0,5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #343a40;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+/*Contenidos*/
+#contenidos{
+    padding-top: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*Proceso*/
+.col-sm{
+    padding-top: 3rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    color:#343a40 ;
+}
+
+.número{
+    font-weight: 900;
+}
+
+#resumen{
+    text-align: center;
+    font-weight: 200;
+}
+
+.carousel-item{
+    height: 90vh;
+}
+
+.carousel-item:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+/*---------------------------------------------------------Página de Recursos---------------------------------------------------------*/
+
+th{
+    background-color:#343a40;
+    color: white;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------Página de Contacto---------------------------------------------------------*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
